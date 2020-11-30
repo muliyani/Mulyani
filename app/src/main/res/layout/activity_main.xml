@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Katalog Laptop"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/btn_buka_acer"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="0dp"
+            android:layout_weight="200"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/acer" />
+
+        <ImageButton
+            android:id="@+id/btn_buka_lenovo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="0dp"
+            android:layout_weight="200"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lenovo" />
+
+        <ImageButton
+            android:id="@+id/btn_buka_toshiba"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="0dp"
+            android:layout_weight="200"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/toshiba" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="(Tekan gambar untuk membuka galeri)"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
